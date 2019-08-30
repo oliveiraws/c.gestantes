@@ -2128,7 +2128,7 @@ body.content-thanks .thanks .btn {
 .logo-area {
  width: 200px;
  height: 200px;
- position: absolute;
+ position: top;
  left: 13%;
  top: 0;
  content: "";
