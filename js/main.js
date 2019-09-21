@@ -106,7 +106,6 @@
             $( "#contactForm" )
                 .validate( {
                     submitHandler: function ( form ) {
-                        console.log( ' teste ' )
                         $.ajax( {
                             type: "POST"
                             , url: "php/contact-form.php"
