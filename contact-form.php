@@ -1,6 +1,6 @@
 <?php
 
-die("Teste ramonn");
+echo "oi";
 /* $errorMSG = "";
 
 // NAME
