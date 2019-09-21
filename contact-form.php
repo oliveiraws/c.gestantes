@@ -60,10 +60,10 @@ if ($success && $errorMSG == ""){
 }else{
     if($errorMSG == ""){
         //echo "Algo deu Errado :(";
-        include("obrigado.html");
+        include("erro.html");
     } else {
         //echo $errorMSG;
-        include("obrigado.html");
+        include("erro.html");
     }
 }
 
