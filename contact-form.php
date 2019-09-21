@@ -21,6 +21,7 @@ if (empty($_POST["subject"])) {
     $errorMSG .= "O assunto é obrigatório ";
 } else {
     $msg_subject = $_POST["subject"];
+    die("Cheguei ate aqui");
 }
 
 
