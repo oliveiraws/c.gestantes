@@ -21,7 +21,6 @@ if (empty($_POST["subject"])) {
     $errorMSG .= "O assunto é obrigatório ";
 } else {
     $msg_subject = $_POST["subject"];
-    die("Cheguei ate aqui");
 }
 
 
@@ -56,15 +55,12 @@ $success = mail($EmailTo, $Subject, $Body, "From:".$email);
 
 // redirect to success page
 if ($success && $errorMSG == ""){
-   //echo "Email enviado com sucesso!";
-   die("Okay");
+   echo "Email enviado com sucesso!";
 }else{
     if($errorMSG == ""){
-        //echo "Algo deu Errado :(";
-        die("Erro");
+        echo "Algo deu Errado :(";
     } else {
-        //echo $errorMSG;
-        die("Aqui");
+        echo $errorMSG;
     }
 }
 
