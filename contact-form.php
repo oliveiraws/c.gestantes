@@ -1,7 +1,6 @@
 <?php
 
-echo "oi";
-/* $errorMSG = "";
+$errorMSG = "";
 
 // NAME
 if (empty($_POST["name"])) {
@@ -63,6 +62,6 @@ if ($success && $errorMSG == ""){
     } else {
         echo $errorMSG;
     }
-} */
+}
 
 ?>
