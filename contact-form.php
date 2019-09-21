@@ -2,17 +2,17 @@
 
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $msg_subject = $_POST['msg_subject'];
+    $subject = $_POST['subject'];
     $message = $_POST['message'];
 
     $email_form = "weslleysoliver@gmail.com";
 
-    $email_subject = "Novo Fomulário Submetido";
+    $email_subject = "Nova Resposta de Currículo";
 
-    $email_body = "User Name: $name.\n".
-                    "User Email: $email.\n".
-                        "User Subject: $msg_subject.\n". 
-                            "User Message: $message.\n";
+    $email_body = "Nome de Usuário: $name.\n".
+                    "Email: $email.\n".
+                        "Assunto: $subject.\n". 
+                            "Mensagem: $message.\n";
 
     $to = "weslleysoliver@gmail.com";
     
