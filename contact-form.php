@@ -1,6 +1,7 @@
 <?php
 
-$errorMSG = "";
+phpinfo();
+/* $errorMSG = "";
 
 // NAME
 if (empty($_POST["name"])) {
@@ -66,6 +67,6 @@ if ($success && $errorMSG == ""){
         //echo $errorMSG;
         die("Aqui");
     }
-}
+} */
 
 ?>
