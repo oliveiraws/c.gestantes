@@ -55,12 +55,15 @@ $success = mail($EmailTo, $Subject, $Body, "From:".$email);
 
 // redirect to success page
 if ($success && $errorMSG == ""){
-   echo "Email enviado com sucesso!";
+   //echo "Email enviado com sucesso!";
+   die("Okay");
 }else{
     if($errorMSG == ""){
-        echo "Algo deu Errado :(";
+        //echo "Algo deu Errado :(";
+        die("Erro");
     } else {
-        echo $errorMSG;
+        //echo $errorMSG;
+        die("Aqui");
     }
 }
 
